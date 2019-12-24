@@ -1,0 +1,7 @@
+<!--pages/base/base.wxml-->
+<view>{{ text  }}</view>
+<view wx:for = "{{list}}" wx:key="index" bindtap="onclickname">
+  {{index}} - {{item.name}}
+</view>
+<view>{{xin}}</view>
+<image src="../../images/IMG20191119200856.jpg" style="width:375rpx;height:400rpx"></image>
